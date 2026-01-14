@@ -1,0 +1,119 @@
+.filters {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.filterGroup {
+  margin-bottom: 15px;
+}
+
+.filterGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.filterGroup select,
+.filterGroup input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.searchContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.searchContainer input {
+  flex: 1;
+}
+
+.searchContainer button,
+.priceInputs button {
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searchContainer button:hover,
+.priceInputs button:hover {
+  background: #0056b3;
+}
+
+.priceInputs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.priceInputs input {
+  flex: 1;
+}
+
+.priceInputs span {
+  white-space: nowrap;
+}
+
+.resetButton {
+  width: 100%;
+  padding: 10px;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.resetButton:hover {
+  background: #545b62;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .filters {
+    padding: 15px;
+  }
+  
+  .priceInputs {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .priceInputs span {
+    align-self: flex-start;
+    margin-bottom: 5px;
+  }
+  
+  .searchContainer {
+    flex-direction: column;
+  }
+  
+  .searchContainer button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .filters {
+    padding: 10px;
+  }
+  
+  .filterGroup label {
+    font-size: 14px;
+  }
+  
+  .filterGroup select,
+  .filterGroup input {
+    font-size: 13px;
+  }
+}
+

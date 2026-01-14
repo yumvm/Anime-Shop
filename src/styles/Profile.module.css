@@ -1,0 +1,130 @@
+.profile {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .left, .right {
+    width: 100%;
+  }
+  
+  .profile {
+    padding: 1rem;
+  }
+  
+  /* Orders section mobile adjustments */
+  .orders {
+    margin-top: 1.5rem;
+  }
+  
+  .orderCard {
+    padding: 0.8rem;
+  }
+  
+  .orderHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .orderCard ul {
+    padding-left: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .orderCard ul li {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
+.left label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.left input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #0078d4;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.right p {
+  margin: 0.5rem 0;
+}
+
+.orders {
+  margin-top: 2rem;
+}
+
+.orderCard {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.orderStatus {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.orderStatus[data-status="accepted"] {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.orderStatus[data-status="processed"] {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
+
+.orderStatus[data-status="shipping"] {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.orderStatus[data-status="delivered"] {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}

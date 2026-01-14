@@ -1,0 +1,150 @@
+.orderDetails {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.orderDetails h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.orderInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.infoSection, .customerSection {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.infoSection h3, .customerSection h3 {
+  margin-top: 0;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.orderInfo p {
+  margin: 8px 0;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+
+.status[data-status="pending"] {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status[data-status="accepted"] {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.status[data-status="processed"] {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.status[data-status="shipping"] {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status[data-status="delivered"] {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.orderItems {
+  margin-bottom: 30px;
+}
+
+.orderItems h3 {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.orderItems ul {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.itemInfo h4 {
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.itemInfo p {
+  margin: 4px 0;
+  color: #666;
+}
+
+.totalSection {
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #b3d9ff;
+  text-align: right;
+}
+
+.totalSection h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.totalSection p {
+  margin: 5px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.backButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.backButton:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .orderInfo {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .orderDetails {
+    padding: 10px;
+  }
+}

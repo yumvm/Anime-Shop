@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1765070868592",
+    "email": "shostakdmitriy11@gmail.com",
+    "password": "$2b$10$NX9B1D0LVRZFtT9wXQ7eTO9h7haoSLh5fBRVay0bsjUxnsQm9nLaO",
+    "firstName": "Шостак",
+    "lastName": "Игоревич",
+    "role": "user",
+    "createdAt": "2025-12-07T01:27:48.592Z",
+    "phone": "+375336247011",
+    "address": "Г. Минск, ул. Лещинского, 7, "
+  },
+  {
+    "id": "1765197809482",
+    "email": "test@example.com",
+    "password": "$2b$10$rwDMnn4U5O2Dd6Q2bwQ4Pez4p.GRGKlLi3dsB94AkqpKiPOQoreR.",
+    "firstName": "Test",
+    "lastName": "User",
+    "role": "user",
+    "createdAt": "2025-12-08T12:43:29.482Z"
+  }
+]

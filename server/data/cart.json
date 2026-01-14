@@ -1,0 +1,38 @@
+{
+  "1765070868592": [
+    {
+      "id": "af01",
+      "title": "Фигурка Наруто",
+      "price": 80,
+      "image": "/src/assets/figurines/Фигурка Наруто.jpg",
+      "category": "figurines",
+      "brand": "Bandai",
+      "material": "PVC",
+      "size": "1/8",
+      "ageRestriction": "+12",
+      "animeSeries": "Naruto",
+      "character": "Naruto Uzumaki",
+      "availability": true,
+      "rating": 4.8,
+      "description": "Детализированная фигурка Наруто в оранжевом костюме ниндзя. Выполнена из высококачественного PVC с точной проработкой деталей.",
+      "quantity": 2
+    },
+    {
+      "id": "af02",
+      "title": "Фигурка Саске",
+      "price": 300,
+      "image": "/src/assets/figurines/Фигурка Саске.jpg",
+      "category": "figurines",
+      "brand": "Good Smile Company",
+      "material": "PVC",
+      "size": "1/8",
+      "ageRestriction": "+12",
+      "animeSeries": "Naruto",
+      "character": "Sasuke Uchiha",
+      "availability": true,
+      "rating": 4.7,
+      "description": "Высокое качество исполнения и проработка деталей.",
+      "quantity": 2
+    }
+  ]
+}

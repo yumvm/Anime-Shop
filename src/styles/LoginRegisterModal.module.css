@@ -1,0 +1,75 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.modal {
+  width: 360px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+.close {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.switch {
+  display:flex;
+  gap:8px;
+  margin-bottom:12px;
+}
+.switch button {
+  flex:1;
+  padding:8px;
+  border-radius:6px;
+  border:1px solid #ddd;
+  background:#fafafa;
+  cursor:pointer;
+}
+.switch .active {
+  background:#4f46e5;
+  color:#fff;
+  border-color:#4f46e5;
+}
+.message {
+  background:#fff4dd;
+  color:#7a4f00;
+  padding:8px;
+  border-radius:6px;
+  margin-bottom:10px;
+  font-size:14px;
+}
+.form label {
+  display:block;
+  font-size:14px;
+  margin-bottom:8px;
+}
+.form input {
+  width:100%;
+  padding:8px;
+  border:1px solid #ddd;
+  border-radius:6px;
+  margin-top:6px;
+  margin-bottom:12px;
+}
+.submit {
+  width:100%;
+  padding:10px;
+  background:#4f46e5;
+  color:#fff;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:600;
+}
